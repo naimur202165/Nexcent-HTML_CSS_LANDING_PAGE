@@ -1,0 +1,89 @@
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+/* Header code will be here */
+
+.white {
+  color: ffffff;
+}
+.primary {
+  color: #4caf4f;
+}
+.secondary {
+  color: #263238;
+}
+.info {
+  color: #2194f3;
+}
+.gray {
+  color: #4d4d4d;
+}
+.light-gray {
+  color: #818181;
+}
+.light-white {
+  color: #f5f7fa;
+}
+/* Typography */
+
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* Header code */
+
+.logo {
+  height: 24px;
+  width: 84;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #4d4d4d;
+  padding: 10px 20px;
+}
+
+.registar {
+  background-color: #4caf4f;
+  color: #ffffff;
+
+  border-radius: 5px;
+}
