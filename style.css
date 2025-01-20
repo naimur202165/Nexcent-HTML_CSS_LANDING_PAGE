@@ -1,5 +1,5 @@
 .container {
-  width: 1120px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -64,6 +64,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  border-radius: 10px;
 }
 
 header ul {
@@ -84,6 +85,33 @@ header ul li a {
 .registar {
   background-color: #4caf4f;
   color: #ffffff;
-
   border-radius: 5px;
+}
+/* Banner Code will be here */
+.banner {
+  height: 70vh;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.banner h2 {
+  line-height: 1.5em;
+}
+.year {
+  color: #4caf4f;
+}
+.banner p {
+  color: #818181;
+}
+
+.banner button {
+  margin-top: 20px;
+  background: #4caf4f;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: #ffffff;
 }
